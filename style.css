@@ -290,7 +290,7 @@ body {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1020px) {
   .container {
     padding: 0 3rem;
     max-width: 1200px;
@@ -322,6 +322,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+  .input_email{
+    margin-left: 350px;
+    margin-top: 12px;
+    width: 260px;
+    height: 30px;
+    font-weight: 300;
+    padding: 12px 20px;
+    font-size: 15px;
   }
 }
 
